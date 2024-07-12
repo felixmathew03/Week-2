@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head1{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+}
+.left1{
+    width: 18%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mb{
+    width: 60%;
+    height: 80%;
+    line-height: 5vh;
+    color: aliceblue; 
+    text-align:center;
+    font-weight:lighter;
+    font-size:12px;
+    border-right: 1px solid gray;
+
+}
+.deli{
+    width: 40%;
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+.right1{
+    width: 31%;
+    height: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.list1{
+    width: 100%;
+    height: 100%;
+}
+.list1 ul{
+    margin-top: 1%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.list1 li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-right: 1px solid white;
+}
+.head2{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.log1{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.list2{
+    width: 39%;
+    height: 100%;
+}
+.list2 ul {
+    height: 100%;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: black;
+    font-size: 14px;
+    
+}
+.list2 li{
+    margin-right: 9px;
+}
+.list2 li:hover{
+    text-decoration: underline red;
+    text-underline-offset: 3px;
+}
+.search1{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.sicon img{
+    width: 30%;
+    height :4%;
+}
+.express{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.expp{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    background-color: rgb(233, 233, 4);
+    border-radius: 25px;
+}
+.log2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.log2 img{
+    width: 95%;
+    height: 80%;
+}
+.eds{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.adi{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.log3{
+    width: 50%;
+    height: 100%;
+}
+.log3 img{
+    width:100%; 
+    height: 100%;
+}
+.carou{
+    width: 100%;
+    height: 90vh;
+}
+.card1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 3%;
+}
+.cards1{
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(11, 11, 88);
+}
+.cimg1{
+    text-align: center;
+    height: 77%;
+}
+.yellow{
+    width: 100%;
+    height: 29vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yel{
+    width:80%;
+    height: 80%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: 1px solid green;
+}
+.yel1{
+    width: 40%;
+    height: 80%;
+    border: 1px solid black;
+}
+.yel2{
+    width: 12%;
+    height: 85%;
+    margin-left: 8%;
+    border: 1px solid black;
+}
+.yel3{
+    width: 20%;
+    height: 85%;
+    margin-left: 12%;
+    border: 1px solid black;
+}

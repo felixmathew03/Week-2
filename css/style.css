@@ -111,13 +111,22 @@
 .search2{
     width: 80%;
     display: flex;
-    justify-content: center;
+
     align-items: center;
     border-bottom: 1px solid black;
 }
+.sicon{
+    width: 15%;
+    height: 100%;
+}
+.stext{
+    width: 80%;
+    height: 100%;
+    font-size: 17px; 
+    color: rgb(14, 44, 194); 
+}
 .sicon img{
-    width: 30%;
-    height :4%;
+    width: 90%;
 }
 .express{
     width: 13%;
@@ -128,7 +137,7 @@
 }
 .expp{
     width: 100%;
-    height: 50%;
+    height: 60%;
     display: flex;
     justify-content: left;
     background-color: rgb(233, 233, 4);
@@ -136,11 +145,12 @@
 }
 .log2{
     width: 20%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
 .log2 img{
-    width: 95%;
+    width: 100%;
     height: 80%;
 }
 .eds{
@@ -406,11 +416,129 @@
     width: 100%;
     height: 100vh;
 }
+.gh1{
+    width: 100%;
+    height: 25%;
+}
+.gh1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    color: yellow;
+}
+.gh1 ul{
+    color: white;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.gh1 li{
+    margin: 30px;
+}
+.gh2{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: right;
+}
+.gh3{
+    width: 90%;
+    height: 100%;
+}
+.gcar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+.gcard1{
+    height: 100%;
+    width: 60%;
+    margin-right: 50px;
+    color: white;
+}
+.gim{
+    width: 24rem;
+    height: 80%;
+}
+.gim img{
+    width: 24rem;
+    height: 100%;
+    object-fit: cover;
+    object-fit: cover;
+}
+.content{
+    width: 100%;
+    height: 20%;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
 .container4{
     height: 80vh;
     width: 100%;
-    background-color: black;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
 }
+.container4 .content{
+    color: black;
+}
+.fco1{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.fco3{
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+}
+.fco4{
+    width: 100%;
+    height: 80%;
+}
+.fco4 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.fco5{
+    width: 100%;
+    height: 20%;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 78);
+    color: white;
+    text-align: center;
+}
+.fco6 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fco2{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
 .container5{
     height: 60vh;
     width: 100%;
@@ -424,33 +552,262 @@
     right: 8%;
     top: 14%;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 14, 108);
     background-color: rgb(233, 233, 4);
 
+}
+.almemmm{
+    height: 70%;
+    width: 80%;
+}
+.almem2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.almemmm1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.almemmm2{
+    width: 60%;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 108);
+    color:rgb(233, 233, 4);
 }
 .samcon1{
     margin-top: 50px;
     background-color: rgb(14, 14, 108);
     width: 100%;
     height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sgift{
+    margin-right: 15px;
+}
+.sbut{
+    margin-left: 25px;
+    width: 152px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(14, 14, 108);
+    background-color: rgb(233, 233, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .samcon2{
     margin-top: 50px;
     background-color: rgb(233, 233, 4);
     width: 100%;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sam1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.isr img{
+    width: 145px;
+    height: 145px;
+
+}
+.tsr{
+    color: rgb(12, 12, 97);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.find{
+    margin-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .5;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.boxie{
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 15px 125px 15px 5px;
+    border-radius: 5px;
+    height: 15px;
+}
+.boxie h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rookie{
+    text-decoration: underline red;
+    text-underline-offset: 5px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 15px;
+}
+.slogo1{
+    width: 10%;
+    height: 100%;
+    
+}
+.slogo1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 .viewp{
     width: 100%;
     height: 40vh;
-    background-color: aquamarine;
+}
+.viewp1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vieap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 30%;
+    height: 50%;
+    border-radius: 8px;
+    background-color: rgb(12, 12, 97);
+}
+.viewp2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vieap1{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vieap2{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    font-size: 12px;
 }
 .samcon{
     width: 100%;
     height: 38vh;
     background-color: rgb(45, 131, 102);
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
 }
+.sam{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.help{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+ }
+ .me{
+     margin-top: 10px;
+ }
+ .me h5{
+     padding-top: 5px;
+ }
+ .helpi{
+     width: 35%;
+     height: 100%;
+     background-color: rgb(255, 255, 255);
+  }
+  .samcon h5{
+    font-weight: lighter;
+  }
+  .helpi img{
+     width: 40px;
+     height: 40px;
+  }
+  .ikk{
+     display: flex;
+     justify-content: left;
+     align-items: center;
+     font-size: 14px;
+  }
+  .ikk img{
+    width: 30px;
+    height: 30px;
+  }
+  .errrr h4{
+     margin-left: 50px;
+     font-size: 12px;
+  }
+ .errrr{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+ }
+ .errrr h6{
+    font-size: 13px;
+    margin-right: 200px;
+    color: rgb(212, 206, 206);
+ }
+ .social{
+     margin-top: 20px;
+     display: flex;
+ }
+ .sr{
+     margin-top: 20px;
+     margin-right: 25px;
+     font-size: 12px;
+ }
+ .social ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+ }
+ .social li{
+ padding-left: 20px;
+ margin-top: 15px;
+ }
+ .social img{
+     width: 30px;
+     height: 30px;
+ }
+ .samcon h5{
+    color: rgb(150, 142, 142);
+ }
 .mlast{
     width: 100%;
     height: 232vh;

@@ -543,6 +543,7 @@
     height: 60vh;
     width: 100%;
     background-image: url(../img/as-image-bg_2x.jpeg);
+    background-position: center;
     position: relative;
 }
 .almem{
